@@ -47,24 +47,30 @@ a {
 
 h1 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 h2 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 h3 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 h4 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 h5 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 h6 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
