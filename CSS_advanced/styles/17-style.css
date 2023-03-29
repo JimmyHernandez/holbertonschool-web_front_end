@@ -283,8 +283,13 @@ a:active {
     color: var(--color-primary);
 }
 
+.section {
+    padding: var(--section-padding);
+}
+
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
 }
 
 .section-title {
@@ -300,6 +305,15 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+.section-body {
+    padding: var(--section-header-padding);
+}
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-padding);
 }
 
 .container {
