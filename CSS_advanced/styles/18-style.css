@@ -27,15 +27,6 @@
     --line-height-big: 1.8;
 
     /*Section Properties: */
-    /*=Header=*/
-    --section-header-align: center;
-    /*=Tagline=*/
-    --section-tagline-transform: uppercase;
-    /*=Title=*/
-    --section-title-margin: 0;
-    --section-title-color: var(--color-black);
-
-    /*Section Properties: */
     /*=Padding=*/
     --section-padding: 5rem 0;
     /*=Header=*/
@@ -52,14 +43,23 @@
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 
-    /*=Footer Properties=*/
+    /*Footer Properties*/
     --footer-padding: 5rem 0 1rem;
+
+    /*Navigation Properties*/
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-link-hover: var(--color-primary);
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -292,6 +292,15 @@ a:active {
     padding: var(--section-header-padding);
 }
 
+.section-body {
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -307,19 +316,10 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 
-.section-body {
-    padding: var(--section-body-padding);
-}
-
-.section-footer {
-    padding: var(--section-footer-padding);
-    text-align: var(--section-footer-align);
-}
-
 .container {
     width: 960px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-menu {
